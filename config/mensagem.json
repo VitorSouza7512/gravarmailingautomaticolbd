@@ -1,0 +1,12 @@
+{
+  "nome": "João Silva",
+  "telefone": "+351 912345678",
+  "endereco": {
+    "rua": "Avenida dos Aliados",
+    "numero": 123,
+    "cidade": "Porto",
+    "codigo_postal": "4000-067",
+    "pais": "Portugal"
+  },
+  "cpf": "123.456.789-10"
+}
