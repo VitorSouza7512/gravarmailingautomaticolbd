@@ -3,9 +3,10 @@ services:
   localstack:
     image: localstack/localstack
     environment:
-      - SERVICES=s3,sqs,sns,kinesis,lambda
+      - SERVICES=s3,sqs,sns,kinesis
       - AWS_DEFAULT_REGION=us-east-1
       - EDGE_PORT=4566
+      - DATA_DIR=/tmp/localstack/data  # Persistência de dados no contêiner (para persistir dados entre reinicializações)
     ports:
       - '4566-4597:4566-4597'
     volumes:

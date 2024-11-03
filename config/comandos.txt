@@ -10,3 +10,9 @@ aws --endpoint-url=http://localhost:4566 sqs get-queue-attributes --queue-url ht
 
 ## Comando para executar a lambda localmente
 sam local invoke
+
+## Comando para listar todos os buckets s3
+
+
+## Comando para criar um dynamoDB local
+aws dynamodb list-tables --endpoint-url http://localhost:4566

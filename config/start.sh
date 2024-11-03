@@ -1,3 +1,6 @@
+## Criar banco de dados DynamoDB
+
+
 ## Criar fila localmente na aws
 aws --endpoint-url=http://localhost:4566 sqs create-queue --queue-name gravar-mailing-automatico-sqs
 
